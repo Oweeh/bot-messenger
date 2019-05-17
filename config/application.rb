@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 
 module BotMessenger
   class Application < Rails::Application
-    #config.load.defaults 5.1
+    config.load.defaults 5.1
     config.paths.add File.join('app', 'bot'), glob: File.join('**', '*.rb')
     config.autoload_paths += Dir[Rails.root.join('app', 'bot', '*')]
     
