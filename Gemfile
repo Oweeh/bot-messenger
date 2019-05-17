@@ -5,7 +5,7 @@ source 'https://rubygems.org'
   #"https://github.com/#{repo_name}.git"
 
 
-ruby '2.5.3'
+ruby '2.6.3'
 
 gem 'facebook-messenger'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
